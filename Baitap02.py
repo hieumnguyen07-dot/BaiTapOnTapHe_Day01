@@ -27,4 +27,4 @@ unique_category = {item['danh_muc'] for item in raw_cart}
 San_pham_tren_200k = [item['ten'] for item in raw_cart if item['tong_tien'] > 200000]
 
 print("Danh mục duy nhất (Set):", unique_category)
-print("Sản phẩm > 200k (List Comprehension):", San_pham_tren_200k)
+print("Sản phẩm > 200000 (List Comprehension):", San_pham_tren_200k)
